@@ -32,5 +32,5 @@ so that it can be accesed url like this https://roms.apon77.workers.dev with a p
 Whenever you need a build you can just commit in this repo. By the way, check the cpu count when you start build, its recommended to use 8cpu and 10cpu for the flexibility (in .cirrus.yml file), Otherwise account gets locks for few times! Which is unpleasant!
 12. First commit build should be stopped immediatly with 1cpu, and setup your rclone_config encrypted variable in cirrus ci repo, instructed in .cirrus.yml file
 13. Later build should be with 8cpu, also instructed within scripts. 
-
+Ok
 **Humble request to all not to abuse this system. Happy building!!!**
