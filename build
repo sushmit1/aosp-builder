@@ -30,4 +30,4 @@ make_stag(){
 		echo "$zip"
 }
 make_metalava
-make bacon
+make bacon -j16
