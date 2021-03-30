@@ -17,7 +17,7 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 
 # Sync stuffs
 
-git clone https://github.com/sushmit1/android_device_xiaomi_ysl.git --depth=1 -b eleven device/xiaomi/ysl
+git clone https://github.com/sushmit1/android_device_xiaomi_ysl.git --depth=1 -b cherish-eleven device/xiaomi/ysl
 git clone https://github.com/ItsVixano/android_vendor_xiaomi_ysl --depth=1 --single-branch vendor/xiaomi/ysl
 git clone https://github.com/lostark13/kernel_xiaomi_cannon.git --depth=1 -b 11 kernel/xiaomi/ysl
 cd build/soong && git remote add d https://github.com/SyntatiX-OS/build_soong -f && git cherry-pick 781bd3afedb8891ddbeab6f96555db68ca1a2ad3^..470a3a74636831eb89f3c274897a1483761e9079 && cd ../..
