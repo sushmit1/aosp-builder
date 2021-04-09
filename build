@@ -24,7 +24,7 @@ make_metalava(){
 }
 
 make_stag(){
-                mka bacon -j16
+                mka bacon -j6
 		zip=$(up out/target/product/ysl/cherish*zip)
 		echo " "
 		echo "$zip"
